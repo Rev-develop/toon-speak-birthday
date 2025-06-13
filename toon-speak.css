@@ -1,0 +1,29 @@
+.im {
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  padding:20px;
+}
+.pp{
+  display:inline-block;
+}
+.sant {
+  padding-left:30px;
+}
+.sat {
+  padding-left:39px;
+}
+.image-container:hover .im {
+  opacity: 0.5;
+  filter: blur(2px); /* or any other effect */
+}
+
+.image-container .im:hover {
+  opacity: 1;
+  filter: none;
+}
+.im:hover {
+  transform: scale(2);
+  transition:1s;
+  
+}
